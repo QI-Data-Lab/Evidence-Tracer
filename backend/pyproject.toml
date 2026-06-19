@@ -1,0 +1,19 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "FastAPI backend for local PDF scanning, Docling extraction, and SQLite chunk storage"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "arize-phoenix-otel>=0.16.0",
+    "docling>=2.82.0",
+    "fastapi>=0.115.0",
+    "langchain>=1.2.18",
+    "langchain-core>=1.3.3",
+    "langchain-ollama>=1.1.0",
+    "langgraph>=1.1.10",
+    "openinference-instrumentation-langchain",
+    "pillow>=11.0.0",
+    "pypdfium2>=4.30.0",
+    "uvicorn>=0.30.0",
+]

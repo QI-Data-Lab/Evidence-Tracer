@@ -1,0 +1,112 @@
+*.py[oc]
+wheels/
+
+# Virtual environments
+.venv
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+.env
+.venv
+env/
+venv/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.log
+instance/
+.webassets-cache
+celerybeat-schedule
+*.sage.py
+
+# ========================
+# Tauri
+# ========================
+src-tauri/target/
+src-tauri/WixTools/
+*.AppImage
+*.deb
+*.dmg
+*.exe
+*.msi
+*.app
+
+# ========================
+# React / Node
+# ========================
+node_modules/
+dist/
+build/
+.next/
+out/
+.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+*.tsbuildinfo
+
+# ========================
+# Environment & Secrets
+# ========================
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# ========================
+# IDEs & Editors
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ========================
+# Misc
+# ========================
+*.bak
+*.tmp
+*.orig
+coverage/
+.turbo/
+.tmp-smoke/
+backend/data/
+backend/test_output/*
+!backend/test_output/.gitkeep
+
+# ========================
+# Local planning and agent notes
+# ========================
+AGENTS.md
+docs/
+plan_*.md
+progress.md
+specs.md
+*_eval.md
+v1_issues.md
